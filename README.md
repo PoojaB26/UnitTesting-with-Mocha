@@ -13,3 +13,45 @@ npm install mocha --save
 npm install chai --save
 ```
 We are using the --save option to automatically save these dependencies in our ```package.json``` file.
+
+
+Mocha gives us the ability to describe the features that we are implementing by giving us a ```describe``` function that expresses our expectations. 
+
+The first argument is a simple string that describes the feature, which is *Color Code Converter*
+
+```javascript
+describe("Color Code Converter", function() {
+
+});
+```
+If you want to give it a bit more detail, you can also write like this :
+
+```javascript
+describe("Color Code Converter", function() {
+  describe("RGB to Hex conversion", function() {
+  });
+
+  describe("Hex to RGB conversion", function() {
+  });
+});
+```
+
+Now the ```it``` function is very similar to the describe function, except that we can only put expectations in the body of the ```it``` function
+
+```javascript
+describe("Color Code Converter", function() {
+    describe("RGB to Hex conversion", function() {
+        it("converts the basic colors from rgb to hex", function() {
+
+        });
+    });
+
+    describe("Hex to RGB conversion", function() {
+        it("converts the basic colors from hex to rgb", function() {
+
+        });
+    });
+});
+```
+
+*Note that our implementation code doesn't exist at this point, but this need not bother us, and we can write our tests as if the implementation already exists.*
