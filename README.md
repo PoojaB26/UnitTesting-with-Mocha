@@ -5,3 +5,10 @@ The core idea with unit testing is to test a function’s behavior when giving i
 
 ## What is Mocha?
 Mocha is a simple, extensible and fast testing library for Node.js
+
+### Steps
+
+```
+npm install mocha --save
+npm install chai --save
+```
