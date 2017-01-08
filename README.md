@@ -12,3 +12,4 @@ Mocha is a simple, extensible and fast testing library for Node.js
 npm install mocha --save
 npm install chai --save
 ```
+We are using the --save option to automatically save these dependencies in our ```package.json``` file.
