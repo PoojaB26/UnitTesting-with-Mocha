@@ -55,3 +55,5 @@ describe("Color Code Converter", function() {
 ```
 
 *Note that our implementation code doesn't exist at this point, but this need not bother us, and we can write our tests as if the implementation already exists.*
+
+For every ```it``` that needs to wait for a response value, we will inject a done callback function and call it only when our expectations were executed. This way, Mocha will know it needs to wait for some of the expectations.
