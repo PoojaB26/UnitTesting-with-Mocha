@@ -6,6 +6,9 @@ The core idea with unit testing is to test a function’s behavior when giving i
 ## What is Mocha?
 Mocha is a simple, extensible and fast testing library for Node.js
 
+## What is Chai?
+Chai contains some helpful functions that we’ll use to verify our test results.
+
 ### Steps
 
 ```
